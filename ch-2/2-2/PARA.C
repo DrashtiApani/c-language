@@ -1,0 +1,31 @@
+#include <stdio.h>
+#include <conio.h>
+#define PI 3.14
+
+main()
+{
+     float r;
+
+     clrscr();
+
+     printf("Enter the perimeter of circle :");
+     scanf("%f",&r);
+
+     printf("Perimeter of circle : %.2f", 2*PI*r);
+
+     getch();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
