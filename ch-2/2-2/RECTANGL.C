@@ -2,7 +2,7 @@
 #include <conio.h>
 
 main ()
-{
+   {
    float l;
 
    clrscr();
