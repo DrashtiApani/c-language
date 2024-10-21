@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <conio.h>
+
+main ()
+{
+
+	int d,r;
+
+	clrscr();
+
+	printf("\nEnter the value : ");
+	scanf("%d",&d);
+
+	printf("\nEnter the value : ");
+	scanf("%d",&r);
+
+	if(d>r)
+	{
+	printf("maximum value : %d",d);
+	}
+	else
+	{
+	printf("maximum value : %d",r);
+
+	}
+
+	getch();
+
+}

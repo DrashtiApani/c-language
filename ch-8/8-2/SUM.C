@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include <conio.h>
+
+main ()
+{
+	int a = 1,s = 0,n;
+
+	clrscr();
+
+	printf("Enter any number : ");
+	scanf("%d",&n);
+
+	while(a<=n)
+	{
+		s = s + a;
+		printf("%d\t",a++);
+	}
+	printf("Sum of all numbers\t : %d",s);
+
+	getch();
+
+}

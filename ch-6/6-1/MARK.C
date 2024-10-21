@@ -1,0 +1,47 @@
+#include <stdio.h>
+#include <conio.h>
+
+main ()
+{
+	int mark;
+
+	clrscr();
+
+	printf("\n\nEnter Your Percantage : ");
+	scanf("%d",&mark);
+
+	if(mark>=91 && mark<=100)
+	{
+		printf("Grade : A+");
+	}
+	else if(mark>=81 && mark<=90)
+	{
+		printf("Grade : A");
+	}
+	else if(mark>=71 && mark<=80)
+	{
+		printf("Grade : B+");
+	}
+	else if(mark>=61 && mark<=70)
+	{
+		printf("Grade : B");
+	}
+	else if(mark>=51 && mark<=60)
+	{
+		printf("Grade : C+");
+	}
+	else if(mark>=41 && mark<=50)
+	{
+		printf("Grade : C");
+	}
+	else if(mark>=33 && mark<=40)
+	{
+		printf("Grade : D");
+	}
+	else
+	{
+		printf("Bhai Ab Tu Rehne Deee Exam Mat De.........");
+	}
+	getch();
+
+}
