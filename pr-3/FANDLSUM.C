@@ -19,7 +19,7 @@ main()
 
 	sum = n + last;
 
-	printf("Addition : %d", sum);
+	printf("Addition of first and last intiger : %d", sum);
 
 	getch();
 
