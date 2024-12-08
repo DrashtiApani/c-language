@@ -1,11 +1,9 @@
 #include <stdio.h>
-#include <conio.h>
+
 
 main()
 {
 	char ch='a';
-
-	clrscr();
 
 	do
 	{
@@ -14,6 +12,6 @@ main()
 
 	}while(ch<='z');
 
-	getch();
+	
 
 }

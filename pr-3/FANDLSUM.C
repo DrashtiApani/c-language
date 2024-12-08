@@ -5,7 +5,6 @@ main()
 {
 	int n,first,last,sum;
 
-	clrscr();
 
 	printf("Enter any number : ");
 	scanf("%d",&n);
@@ -21,7 +20,7 @@ main()
 
 	printf("Addition of first and last intiger : %d", sum);
 
-	getch();
+	// getch();
 
 
 

@@ -6,7 +6,7 @@ main ()
 {
 	int a,b,c;
 
-	clrscr();
+	
 
 	printf("Enter any number : ");
 	scanf("%d %d %d",&a,&b,&c);
@@ -47,5 +47,4 @@ main ()
 		}
 	}
 
-	getch();
 }

@@ -5,7 +5,6 @@ main ()
 {
 	int x,y;
 
-	clrscr();
 
 	printf("\n\n");
 
@@ -16,10 +15,5 @@ main ()
 	scanf("\t %d",y);
 
 	printf("\t Whole cube of (x+y) : %d",x*x*x*y*y*y+3*x*x*y+3*x*y*y);
-
-
-	getch();
-
-
 
 }

@@ -1,11 +1,9 @@
 #include <stdio.h>
-#include <conio.h>
+
 
 main()
 {
-	int n;
-
-	clrscr();
+	int n,a;
 
 	printf("Enter any number : ");
 	scanf("%d",&n);
@@ -15,9 +13,6 @@ main()
 			n = n / 10;
 		}
 	printf("Number of digits : %d",a);
-
-
-	getch();
 
 
 }

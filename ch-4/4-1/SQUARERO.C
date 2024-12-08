@@ -7,7 +7,7 @@ main()
 	int x;
 	int y;
 
-	clrscr();
+	
 
 	printf("\t value of x\t: ");
 	scanf("\t %d",&x);
@@ -30,9 +30,5 @@ main()
 	printf("\n\n");
 
 
-	getch();
-
-
-
-
+	
 }

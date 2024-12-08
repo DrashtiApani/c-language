@@ -5,7 +5,6 @@ main ()
 {
 	int a = 10, b = 20;
 
-	clrscr();
 
 	printf("\n\n");
 
@@ -14,16 +13,5 @@ main ()
 	printf("\n\n");
 
 	printf("Value of b : %d",a,b );
-
-
-
-	getch();
-
-
-
-
-
-
-
 
 }

@@ -1,17 +1,23 @@
-#include <stdio.h>
-#include <conio.h>
+#include<stdio.h>
+#include<conio.h>
 
-main ()
+main()
 {
-	int a = 10 , b = 20;
+	int a,b,c;
+	
 
-	clrscr();
+	printf("Enter the value of a :\t");
+	scanf("%d",&a);
 
-	printf("\tValue of a : %d\n",a+b-a);
+	printf("Enter the value of b :\t");
+	scanf("%d",&b);
 
-	printf("\tValue of b : %d",a+b-b );
+	a=a+b;
+	b=a-b;
+	a=a-b;
 
-	getch();
+	printf("\na : %d",a);
+	printf("\nb : %d",b);
 
-
+	
 }
