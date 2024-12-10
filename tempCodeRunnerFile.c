@@ -1,83 +1,37 @@
-#include <stdio.h>
 
-int add(int a, int b)
-{
-    return a + b;
-}
+#include<stdio.h>
+#include<string.h>
+struct movie{
+	char title[20];
+	char gen[10];
+	char lan[10];
+};
+main(){
+	int i;
+	int n;
 
-int subtraction(int a, int b)
-{
-    return a - b;
-}
-
-int multiplication(int a, int b)
-{
-    return a * b;
-}
-int divide(int a, int b)
-{
-    if (b != 0)
-    {
-        return a / b;
-    }
-    else
-    {
-        printf("not divide by zero....");
-        return 0;
-    }
-}
-int moduls(int a, int b)
-{
-    return a % b;
-}
-void main()
-{
-
-    int num;
-    int a, b;
-    do
-    {
-        printf("\n Enter 1 for + ");
-        printf("\n Enter 2 for - ");
-        printf("\n Enter 3 for * ");
-        printf("\n Enter 4 for / ");
-        printf("\n Enter 5 for %% ");
-        printf("\n Enter 0 for the exit  \n\n");
-
-        printf("Enter your choice :~");
-        scanf("%d", &num);
-
-        if (num == 0)
-        {
-            break;
-        }
-        else if (num >= 1 && num <= 5)
-        {
-            printf("Enter the first number :~");
-            scanf("%d", &a);
-            printf("Enter the second number :~");
-            scanf("%d", &b);
-        }
-        switch (num)
-        {
-        case 1:
-            printf("\naddition is %d & %d  :~ %d\n", a, b, add(a, b));
-            break;
-        case 2:
-            printf("\nsubtraction is %d & %d  :~ %d\n", a, b, subtraction(a, b));
-            break;
-        case 3:
-            printf("\nmultiplaction  is %d & %d  :~ %d\n\n", a, b, multiplication(a, b));
-            break;
-        case 4:
-            printf("\nDivision  is %d & %d  :~ %d\n\n", a, b, divide(a, b));
-            break;
-        case 5:
-            printf("\nModulus  is %d & %d  :~ %d\n\n", a, b, moduls(a, b));
-            break;
-
-        default:
-            printf("\n\n Invalid choice !!.. If you want any math operation then try again...\n");
-        }
-    } while (1);   
+	printf("Enter the size of array of object: ");
+	scanf("%d",&n);
+	struct movie m1[n];
+	struct movie m2[n];
+	struct movie m3[n];
+	for(i=1;i<=n;i++){
+		
+		printf("Enter the title of movie: ");
+		gets(m1[i].title);
+		
+		printf("Enter the Generation: ");
+		gets(m2[i].gen);
+		
+		printf("Enter your comfortable language: ");
+		gets(m3[i].lan);
+		printf("\n\n");
+	}
+	printf("\n=========================\n");
+	for(i=1;i<=n;i++){
+		printf("Movie name: %s\n",m1[i].title);
+		printf("Generation: %s\n",m2[i].gen);
+		printf("Language: %s\n",m3[i].lan);
+		printf("\n---------------\n");
+	}
 }
