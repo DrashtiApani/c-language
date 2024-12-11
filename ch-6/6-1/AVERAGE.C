@@ -4,7 +4,7 @@ main()
 {
 	 float a,b,c;
 
-	 clrscr();
+	 
 
 	 printf("\n\n");
 
@@ -18,5 +18,5 @@ main()
 	 scanf("%f",&c);
 
 	 printf("average is:%.2f",(a+b+c)/3);
-	 getch();
+	 
 }

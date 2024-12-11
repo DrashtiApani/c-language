@@ -1,22 +1,18 @@
 #include <stdio.h>
-#include <conio.h>
+
 
 main()
 {
 	int i,s,j,a;
 
-
-
-	for(i=1; i<=5; i++)
+	for(i=10; i>=5; i--)
 	{
-		 printf("\n");
-		 printf("\t");
-
-		for(s=1; s<i; s++)
+	
+		for(s=5; s<i; s++)
 		{
 			printf(" ");
 		}
-		for(j=i; j<=5; j++)
+		for(j=i; j<=10; j++)
 		{
 			printf("%d",j);
 

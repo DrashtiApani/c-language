@@ -5,7 +5,7 @@ main()
 {
 	int i,s,j,a;
 
-	clrscr();
+	
 
 	for(i=1; i<=5; i++)
 	{
@@ -23,7 +23,6 @@ main()
 		   printf("\n");
 	}
 
-	getch();
 
 
 }

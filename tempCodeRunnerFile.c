@@ -1,37 +1,27 @@
+#include <stdio.h>
 
-#include<stdio.h>
-#include<string.h>
-struct movie{
-	char title[20];
-	char gen[10];
-	char lan[10];
-};
-main(){
-	int i;
-	int n;
 
-	printf("Enter the size of array of object: ");
-	scanf("%d",&n);
-	struct movie m1[n];
-	struct movie m2[n];
-	struct movie m3[n];
-	for(i=1;i<=n;i++){
-		
-		printf("Enter the title of movie: ");
-		gets(m1[i].title);
-		
-		printf("Enter the Generation: ");
-		gets(m2[i].gen);
-		
-		printf("Enter your comfortable language: ");
-		gets(m3[i].lan);
-		printf("\n\n");
-	}
-	printf("\n=========================\n");
-	for(i=1;i<=n;i++){
-		printf("Movie name: %s\n",m1[i].title);
-		printf("Generation: %s\n",m2[i].gen);
-		printf("Language: %s\n",m3[i].lan);
-		printf("\n---------------\n");
-	}
+void main()
+{
+    int size;
+
+    printf("Enter the size of 1D array :- ");
+    scanf("%d", &size);
+
+    int a[size];
+
+    for (int i = 0; i < size; i++)
+    {
+        printf("Enter element[%d] :- ", i);
+        scanf("%d", &a[i]);
+    }
+
+    for (int i = 0; i < size; i++)
+    {
+          if (a[i] % 2 == 0)
+    {
+        printf("%d ", a[i]);
+    }
+    }
 }
+
