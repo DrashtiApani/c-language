@@ -25,6 +25,8 @@ main()
         printf("\n");
     }
     
+     printf("\n ^_^   output   ^_^ \n\n");
+
     mult = row * col;
     printf("The average of 2D array is :- %d ", sum / mult);
 

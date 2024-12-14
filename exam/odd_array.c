@@ -25,8 +25,10 @@ void odd(int a)
         scanf("%d", &a[i]);
     }
 
+    printf("\n\n ^_^   output   ^_^ \n\n");
+
     for (int i = 0; i < size; i++)
     {
-        odd(a[i]);
+        printf("odd num is :%d\n", a[i]);
     }
 }
